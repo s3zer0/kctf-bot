@@ -1,0 +1,38 @@
+{
+    "bot_settings": {
+        "prefix": "!",
+        "embed_color": "#5865F2",
+        "ticket_prefix": "ticket-"
+    },
+    "ticket_types": [
+        {
+            "name": "일반 문의",
+            "emoji": "💬",
+            "description": "일반적인 문의사항",
+            "category": "general"
+        },
+        {
+            "name": "기술 지원",
+            "emoji": "🔧",
+            "description": "기술적인 도움이 필요한 경우",
+            "category": "technical"
+        },
+        {
+            "name": "신고",
+            "emoji": "⚠️",
+            "description": "규칙 위반 신고",
+            "category": "report"
+        }
+    ],
+    "ticket_messages": {
+        "welcome": "안녕하세요 {user}님!\n\n티켓을 생성해주셔서 감사합니다. 담당자가 곧 확인할 예정입니다.\n문의사항을 자세히 적어주세요.",
+        "closed": "티켓이 종료되었습니다. 추가적인 도움이 필요하시면 새로운 티켓을 생성해주세요.",
+        "transcript_saved": "티켓 대화 내용이 저장되었습니다."
+    },
+    "permissions": {
+        "can_close_own_ticket": true,
+        "transcript_dm": true,
+        "auto_delete_after_close": false,
+        "delete_delay_seconds": 300
+    }
+}
